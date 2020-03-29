@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 100px 10px 100px 10px;
+  background: #e5e5e5;
+  text-align: center;
+}
+
+.outer-box {
+  width: 411px;
+  height: 731px;
+  margin-bottom: 20px;
+  background: #fff;
+}

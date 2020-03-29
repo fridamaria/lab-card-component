@@ -1,0 +1,143 @@
+.card {
+  position: relative;
+  left: 20px;
+  top: 115px;
+  width: 371px;
+  height: 372px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+}
+
+h2 {
+  width: 215px;
+  height: 70px;
+  margin: 30px 0 0 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 82px;
+  display: flex;
+  align-items: center;
+}
+
+.emoji {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.emoji img {
+  width: 70px;
+  height: 70px;
+}
+
+
+.sub-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 126px;
+  width: 371px;
+  height: 246px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.sub-title-text {
+  width: 311px;
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+}
+
+button {
+  width: 311px;
+  height: 50px;
+  margin-top: 46px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+/*** LEMON STYLING ***/
+
+.lemon {
+  background: #8cffba;
+}
+
+.lemon h2 {
+  color: #166f39;
+}
+
+.lemon .sub-title {
+  background: #cfffe2;
+}
+
+.lemon .sub-title-text {
+  color: #000000;
+}
+
+.lemon button {
+  background: #FCED84;
+  color: #000000;
+}
+
+/*** ROCKET STYLING ***/
+
+.rocket {
+  background: #A6CFE2;
+}
+
+.rocket h2 {
+  color: #0B0C11;
+}
+
+.rocket .sub-title {
+  background: #C2DCE9;
+}
+
+.rocket .sub-title-text {
+  color: #0B0C11;
+}
+
+.rocket button {
+  background: #0B0C11;
+  color: #FFD600;
+}
+
+/*** DOG STYLING ***/
+
+.dog {
+  background: #EEB200;
+}
+
+.dog h2 {
+  color: #502F7E;
+}
+
+.dog .sub-title {
+  background: #FFE086;
+}
+
+.dog .sub-title-text {
+  color: #502F7E;
+}
+
+.dog button {
+  background: #FFFFFF;
+  color: #502F7E;
+}

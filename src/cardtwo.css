@@ -1,0 +1,111 @@
+.card2 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  position: relative;
+  left: 20px;
+  top: 115px;
+  width: 371px;
+  height: 372px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 371px;
+  height: 186px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.title2:hover {
+  height: 372px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  z-index: 2;
+}
+
+.card2 h2 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.emoji2 {
+  grid-row-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  width: 371px;
+  height: 186px;
+  border-radius: 0px 0px 8px 8px;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+.emoji2:hover {
+  height: 372px;
+  margin-top: -186px;
+  border-radius: 8px;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+.card2 img {
+  width: 90px;
+  height: 90px;
+}
+
+/*** LEMON STYLING ***/
+
+.lemon2 .title2 {
+  background: #8CFFBA;
+}
+
+.lemon2 h2 {
+  color: #166F39;
+}
+
+.lemon2 .emoji2 {
+  background: #CFFFE2;
+}
+
+/*** ROCKET STYLING ***/
+
+.rocket2 .title2 {
+  background: #A6CFE2;
+}
+
+.rocket2 h2 {
+  color: #0B0C11;
+}
+
+.rocket2 .emoji2 {
+  background: #C2DCE9;
+}
+
+/*** DOG STYLING ***/
+
+.dog2 .title2 {
+  background: #EEB200;
+}
+
+.dog2 h2 {
+  color: #502F7E;
+}
+
+.dog2 .emoji2 {
+  background: #FFE086;
+}
