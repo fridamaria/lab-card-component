@@ -1,6 +1,4 @@
 .card2 {
-  display: grid;
-  grid-template-rows: 50% 50%;
   position: relative;
   left: 20px;
   top: 115px;
@@ -11,24 +9,28 @@
 }
 
 .title2 {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 371px;
   height: 186px;
   border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
 .title2:hover {
   height: 372px;
   border-radius: 8px;
-  overflow: hidden;
-  transition: all 1s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
-  z-index: 2;
+}
+
+.title2:hover + .emoji2 {
+  height: 0;
 }
 
 .card2 h2 {
@@ -37,30 +39,26 @@
 }
 
 .emoji2 {
-  grid-row-start: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 0;
   width: 371px;
   height: 186px;
   border-radius: 0px 0px 8px 8px;
-  transition: all 1s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
+  overflow: hidden;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
 .emoji2:hover {
   height: 372px;
-  margin-top: -186px;
   border-radius: 8px;
-  transition: all 1s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
 }
 
 .card2 img {
