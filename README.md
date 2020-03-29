@@ -15,4 +15,4 @@ The task was to create card components based on a set design file. An onClick ev
 
 ## View it live
 
-https://fridamaria-card-components.netlify.com/
+https://fridamaria-card-component.netlify.com/
