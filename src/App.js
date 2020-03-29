@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./app.css";
-import { CardOne } from './CardOne'
-import { CardTwo } from "CardTwo";
-import Lemon from './lemon.png'
-import Rocket from './rocket.png'
-import Dog from './dog.png'
+import { CardOne } from './components/CardOne'
+import { CardTwo } from "components/CardTwo";
+import Lemon from './assets/lemon.png'
+import Rocket from './assets/rocket.png'
+import Dog from './assets/dog.png'
 
 export const App = () => {
   const [lemonButtonClicked, setLemonButtonClicked] = useState(false)
@@ -25,15 +25,17 @@ export const App = () => {
 
   return (
     <div className="App">
+
       <div className="outer-box">
+
         {!lemonButtonClicked &&
           <CardOne
-            cardClass="card lemon"
+            className="card lemon"
             cardTitle="Lemon"
             emoji={Lemon}
             emojiAlt="lemon"
             subTitle="This is a really tasty fruit."
-            handleClick={handleLemonClick}
+            onClick={handleLemonClick}
             button="ORDER NOW" />
         }
         {lemonButtonClicked &&
@@ -48,12 +50,12 @@ export const App = () => {
       <div className="outer-box">
         {!rocketButtonClicked &&
           <CardOne
-            cardClass="card rocket"
+            className="card rocket"
             cardTitle="Rocket"
             emoji={Rocket}
             emojiAlt="rocket"
             subTitle="Join us into the outer space!"
-            handleClick={handleRocketClick}
+            onClick={handleRocketClick}
             button="BOOK SEAT" />
         }
         {rocketButtonClicked &&
@@ -68,12 +70,12 @@ export const App = () => {
       <div className="outer-box">
         {!dogButtonClicked &&
           <CardOne
-            cardClass="card dog"
+            className="card dog"
             cardTitle="Doggy"
             emoji={Dog}
             emojiAlt="dog"
             subTitle="This is a really cute dog."
-            handleClick={handleDogClick}
+            onClick={handleDogClick}
             button="ADOPT ME" />
         }
         {dogButtonClicked &&
@@ -83,6 +85,7 @@ export const App = () => {
             emoji={Dog}
             emojiAlt="dog" />
         }
+
       </div>
 
     </div>
